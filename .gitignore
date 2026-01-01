@@ -1,0 +1,33 @@
+# data / outputs / db / cache
+data/
+db/
+vector_db/
+logs/
+
+# large files
+*.zip
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
